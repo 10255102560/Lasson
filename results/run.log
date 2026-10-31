@@ -1,0 +1,46 @@
+Benchmark rho=0, seed=20261031: ISTA 281, FISTA 254 iterations
+Benchmark rho=0, seed=20261101: ISTA 250, FISTA 251 iterations
+Benchmark rho=0, seed=20261102: ISTA 376, FISTA 321 iterations
+Benchmark rho=0, seed=20261103: ISTA 340, FISTA 288 iterations
+Benchmark rho=0, seed=20261104: ISTA 281, FISTA 280 iterations
+Benchmark rho=0.8, seed=20261031: ISTA 1537, FISTA 1130 iterations
+Benchmark rho=0.8, seed=20261101: ISTA 2037, FISTA 1510 iterations
+Benchmark rho=0.8, seed=20261102: ISTA 2586, FISTA 1587 iterations
+Benchmark rho=0.8, seed=20261103: ISTA 2452, FISTA 1719 iterations
+Benchmark rho=0.8, seed=20261104: ISTA 1657, FISTA 1172 iterations
+Scenario base, seed=20261031: selected ratio=0.03, test MSE=0.4023, nnz=63, path iterations=9812
+Scenario base, seed=20261101: selected ratio=0.03, test MSE=0.3596, nnz=56, path iterations=10551
+Scenario base, seed=20261102: selected ratio=0.03, test MSE=0.3315, nnz=105, path iterations=11811
+Scenario base, seed=20261103: selected ratio=0.03, test MSE=0.3890, nnz=92, path iterations=11854
+Scenario base, seed=20261104: selected ratio=0.03, test MSE=0.2576, nnz=69, path iterations=10796
+Scenario n150, seed=20261031: selected ratio=0.03, test MSE=0.5172, nnz=88, path iterations=19867
+Scenario n150, seed=20261101: selected ratio=0.01, test MSE=0.5054, nnz=120, path iterations=17398
+Scenario n150, seed=20261102: selected ratio=0.03, test MSE=0.6690, nnz=86, path iterations=20015
+Scenario n150, seed=20261103: selected ratio=0.03, test MSE=0.7932, nnz=101, path iterations=27434
+Scenario n150, seed=20261104: selected ratio=0.01, test MSE=0.5269, nnz=122, path iterations=19505
+Scenario n600, seed=20261031: selected ratio=0.01, test MSE=0.2984, nnz=200, path iterations=5524
+Scenario n600, seed=20261101: selected ratio=0.03, test MSE=0.2807, nnz=33, path iterations=4907
+Scenario n600, seed=20261102: selected ratio=0.03, test MSE=0.2671, nnz=48, path iterations=5708
+Scenario n600, seed=20261103: selected ratio=0.03, test MSE=0.3162, nnz=49, path iterations=6968
+Scenario n600, seed=20261104: selected ratio=0.03, test MSE=0.2288, nnz=39, path iterations=5160
+Scenario noise005, seed=20261031: selected ratio=0.01, test MSE=0.0967, nnz=105, path iterations=5945
+Scenario noise005, seed=20261101: selected ratio=0.01, test MSE=0.0862, nnz=111, path iterations=6459
+Scenario noise005, seed=20261102: selected ratio=0.01, test MSE=0.0847, nnz=143, path iterations=7771
+Scenario noise005, seed=20261103: selected ratio=0.01, test MSE=0.1017, nnz=133, path iterations=7908
+Scenario noise005, seed=20261104: selected ratio=0.01, test MSE=0.0647, nnz=132, path iterations=7364
+Scenario noise030, seed=20261031: selected ratio=0.03, test MSE=3.7825, nnz=189, path iterations=16480
+Scenario noise030, seed=20261101: selected ratio=0.1, test MSE=3.3578, nnz=47, path iterations=18394
+Scenario noise030, seed=20261102: selected ratio=0.1, test MSE=3.0247, nnz=81, path iterations=22472
+Scenario noise030, seed=20261103: selected ratio=0.1, test MSE=3.5490, nnz=69, path iterations=19782
+Scenario noise030, seed=20261104: selected ratio=0.1, test MSE=2.3716, nnz=54, path iterations=20087
+Scenario rho050, seed=20261031: selected ratio=0.03, test MSE=0.4078, nnz=64, path iterations=11707
+Scenario rho050, seed=20261101: selected ratio=0.01, test MSE=0.3571, nnz=180, path iterations=13108
+Scenario rho050, seed=20261102: selected ratio=0.03, test MSE=0.3116, nnz=91, path iterations=14809
+Scenario rho050, seed=20261103: selected ratio=0.03, test MSE=0.4084, nnz=77, path iterations=14329
+Scenario rho050, seed=20261104: selected ratio=0.03, test MSE=0.2594, nnz=60, path iterations=11470
+Scenario rho090, seed=20261031: selected ratio=0.01, test MSE=0.4557, nnz=104, path iterations=41797
+Scenario rho090, seed=20261101: selected ratio=0.01, test MSE=0.3355, nnz=99, path iterations=45094
+Scenario rho090, seed=20261102: selected ratio=0.01, test MSE=0.2976, nnz=132, path iterations=50890
+Scenario rho090, seed=20261103: selected ratio=0.01, test MSE=0.3854, nnz=135, path iterations=49332
+Scenario rho090, seed=20261104: selected ratio=0.01, test MSE=0.3041, nnz=119, path iterations=44706
+Completed in 72.5s; results: results

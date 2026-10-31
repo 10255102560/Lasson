@@ -1,0 +1,22 @@
+{
+  "seeds": [20261031, 20261101, 20261102, 20261103, 20261104],
+  "p": 1000,
+  "sparsity": 20,
+  "n_val": 300,
+  "n_test": 1000,
+  "tol": 1e-6,
+  "max_iter": 50000,
+  "lambda_ratios": [0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0],
+  "benchmark_lambda_ratio": 0.05,
+  "benchmark_rhos": [0.0, 0.8],
+  "timing_repeats": 3,
+  "scenarios": [
+    {"name": "base", "n": 300, "rho": 0.0, "noise_ratio": 0.1},
+    {"name": "n150", "n": 150, "rho": 0.0, "noise_ratio": 0.1},
+    {"name": "n600", "n": 600, "rho": 0.0, "noise_ratio": 0.1},
+    {"name": "noise005", "n": 300, "rho": 0.0, "noise_ratio": 0.05},
+    {"name": "noise030", "n": 300, "rho": 0.0, "noise_ratio": 0.3},
+    {"name": "rho050", "n": 300, "rho": 0.5, "noise_ratio": 0.1},
+    {"name": "rho090", "n": 300, "rho": 0.9, "noise_ratio": 0.1}
+  ]
+}

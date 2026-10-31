@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "pdf_pages": 11,
+  "pdf_has_no_missing_glyphs_or_unresolved_references": true,
+  "latex_has_no_overfull_boxes": true,
+  "word_display_equations": 23,
+  "word_equation_numbers_match_pdf": true,
+  "word_tables": 7,
+  "word_figures": 5,
+  "word_has_no_unconverted_tex": true,
+  "pdf_pages_visually_reviewed": true
+}

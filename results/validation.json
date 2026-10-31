@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "candidate_fits": 245,
+  "selected_models": 35,
+  "benchmark_rows": 20,
+  "reference_problems": 45,
+  "all_values_finite": true,
+  "all_stopping_criteria_met": true,
+  "selection_reproduced_from_validation_only": true,
+  "source_hashes_match": true,
+  "base_snapshot_mse": 0.4023135584315139,
+  "max_checked_objective_difference": 3.903377621128357e-12,
+  "traces": {
+    "FISTA_rho0.0.csv": {
+      "iterations": 254,
+      "objective_increases_above_1e_minus12": 95
+    },
+    "FISTA_rho0.8.csv": {
+      "iterations": 1130,
+      "objective_increases_above_1e_minus12": 429
+    },
+    "ISTA_rho0.0.csv": {
+      "iterations": 281,
+      "objective_increases_above_1e_minus12": 0
+    },
+    "ISTA_rho0.8.csv": {
+      "iterations": 1537,
+      "objective_increases_above_1e_minus12": 0
+    },
+    "step_0.25.csv": {
+      "iterations": 1141,
+      "objective_increases_above_1e_minus12": 0
+    },
+    "step_0.50.csv": {
+      "iterations": 567,
+      "objective_increases_above_1e_minus12": 0
+    },
+    "step_1.00.csv": {
+      "iterations": 281,
+      "objective_increases_above_1e_minus12": 0
+    }
+  }
+}

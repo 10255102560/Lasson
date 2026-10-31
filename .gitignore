@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.ipynb_checkpoints/
+*.zip
+report/*.aux
+report/*.log
+report/*.out
+report/lasso_report.pdf
+report/word_source.tex
+report/previews/

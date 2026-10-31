@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\centering\small
+\caption{基础场景下的统计模型比较（5 个种子）}\label{tab:baselines}
+\begin{tabular}{lrrr}
+\toprule
+模型 & 测试 MSE & 参数相对误差 & 非零数 \\
+\midrule
+Lasso（验证集选参） & $0.348\pm0.057$ & $0.0738\pm0.0124$ & $77.0\pm20.7$ \\
+最小范数最小二乘 & $16.212\pm1.286$ & $0.8449\pm0.0164$ & $1000.0\pm0.0$ \\
+仅截距模型 & $22.662\pm1.332$ & $1.0000\pm0.0000$ & $0.0\pm0.0$ \\
+\bottomrule
+\end{tabular}
+\end{table}

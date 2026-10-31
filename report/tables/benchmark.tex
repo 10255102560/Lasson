@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\centering\small
+\caption{固定正则化强度下的算法比较（5 个种子）}\label{tab:benchmark}
+\begin{tabular}{llrrrr}
+\toprule
+$\rho$ & 方法 & 迭代次数 & 时间 / ms & 最大 $R_{\rm KKT}$ & 最大 $G_{\rm rel}$ \\
+\midrule
+0 & ISTA & $305.6\pm51.1$ & $27.01\pm4.62$ & $9.37\times10^{-8}$ & $9.99\times10^{-7}$ \\
+0 & FISTA & $278.8\pm28.5$ & $25.35\pm2.62$ & $7.46\times10^{-8}$ & $9.54\times10^{-7}$ \\
+0.8 & ISTA & $2053.8\pm465.5$ & $177.76\pm39.90$ & $1.35\times10^{-7}$ & $9.98\times10^{-7}$ \\
+0.8 & FISTA & $1423.6\pm260.3$ & $128.09\pm22.98$ & $7.28\times10^{-8}$ & $9.95\times10^{-7}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

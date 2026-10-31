@@ -1,0 +1,131 @@
+{
+  "started_utc": "2026-10-31T09:40:23.666658+00:00",
+  "config": {
+    "seeds": [
+      20261031,
+      20261101,
+      20261102,
+      20261103,
+      20261104
+    ],
+    "p": 1000,
+    "sparsity": 20,
+    "n_val": 300,
+    "n_test": 1000,
+    "tol": 1e-06,
+    "max_iter": 50000,
+    "lambda_ratios": [
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ],
+    "benchmark_lambda_ratio": 0.05,
+    "benchmark_rhos": [
+      0.0,
+      0.8
+    ],
+    "timing_repeats": 3,
+    "scenarios": [
+      {
+        "name": "base",
+        "n": 300,
+        "rho": 0.0,
+        "noise_ratio": 0.1
+      },
+      {
+        "name": "n150",
+        "n": 150,
+        "rho": 0.0,
+        "noise_ratio": 0.1
+      },
+      {
+        "name": "n600",
+        "n": 600,
+        "rho": 0.0,
+        "noise_ratio": 0.1
+      },
+      {
+        "name": "noise005",
+        "n": 300,
+        "rho": 0.0,
+        "noise_ratio": 0.05
+      },
+      {
+        "name": "noise030",
+        "n": 300,
+        "rho": 0.0,
+        "noise_ratio": 0.3
+      },
+      {
+        "name": "rho050",
+        "n": 300,
+        "rho": 0.5,
+        "noise_ratio": 0.1
+      },
+      {
+        "name": "rho090",
+        "n": 300,
+        "rho": 0.9,
+        "noise_ratio": 0.1
+      }
+    ]
+  },
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:07:20) [Clang 20.1.8 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "sklearn": "1.6.1",
+  "pandas": "2.2.3",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas64_.dylib",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "neoversen1"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas.dylib",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "neoversen1"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "filepath": "libomp.dylib",
+      "version": null
+    }
+  ],
+  "publication_note": "Local library paths have been reduced to basenames for publication. Experimental values, software versions, and source hashes are unchanged.",
+  "source_sha256": {
+    "lasso.py": "d9c584a0b99e60651f8a340293bd6eb8c891f60e46002a3d9466f84a580a27c9",
+    "data.py": "89883312270ae565a8e01ddf8159fd1464959afeb89745c06037d52a7b40eee4",
+    "run_experiments.py": "3019c50fc9a4d529b133f608414a997faad028cb9d2b952a75fee02383e6a877",
+    "experiment_config.json": "bf4446491c7418edbeb3d319293b7fd395129db8f792b0d9a41d230ff5b8dd42"
+  },
+  "cpu": "Apple M4",
+  "total_seconds": 72.51082754199888,
+  "completed_utc": "2026-10-31T09:41:36.175498+00:00",
+  "counts": {
+    "benchmark_problems": 10,
+    "timed_solver_runs": 60,
+    "lambda_fits": 245,
+    "selected_models": 35,
+    "independent_reference_checks": 45
+  }
+}
