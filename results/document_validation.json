@@ -8,5 +8,11 @@
   "word_tables": 7,
   "word_figures": 5,
   "word_has_no_unconverted_tex": true,
-  "pdf_pages_visually_reviewed": true
+  "pdf_pages_visually_reviewed": true,
+  "author_name": "毛语菲",
+  "student_id": "10255102560",
+  "pdf_and_word_author_match": true,
+  "repository_url": "https://github.com/10255102560/Lasson",
+  "repository_links_clickable_in_pdf_and_word": true,
+  "experiment_source_commit": "eeaed69b0accff24bd4aac847baed2e1798f91ef"
 }

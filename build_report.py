@@ -225,6 +225,7 @@ def export_docx():
         header=OxmlElement("w:tblHeader")
         tbl.rows[0]._tr.get_or_add_trPr().append(header)
     doc.core_properties.title="基于近端梯度法的 Lasso 稀疏回归求解与数值实验"
+    doc.core_properties.author="毛语菲（学号：10255102560）"
     doc.core_properties.subject="最优化方法研究报告"
     doc.save(output)
     print("Word:",output)

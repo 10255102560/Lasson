@@ -8,7 +8,8 @@
 \setmonofont{lmmono10-regular.otf}
 \definecolor{ink}{HTML}{235789}
 \hypersetup{colorlinks=true,linkcolor=ink,urlcolor=ink,citecolor=ink,
- pdftitle={基于近端梯度法的 Lasso 稀疏回归求解与数值实验}}
+ pdftitle={基于近端梯度法的 Lasso 稀疏回归求解与数值实验},
+ pdfauthor={毛语菲（学号：10255102560）}}
 \ctexset{section={format=\Large\bfseries\color{ink}},subsection={format=\large\bfseries}}
 \pagestyle{fancy}
 \fancyhf{}
@@ -34,7 +35,7 @@
 \input{generated_numbers.tex}
 
 \title{\vspace{-1.5em}\textbf{基于近端梯度法的 Lasso\\稀疏回归求解与数值实验}}
-\author{最优化方法课程研究报告}
+\author{毛语菲（学号：10255102560）}
 \date{2026 年 10 月 31 日}
 
 \begin{document}
@@ -54,6 +55,7 @@
 全部报告数值来自配套程序的实际运行，提供原始 CSV、迭代轨迹、图表和复现脚本。
 \end{abstract}
 \noindent\textbf{关键词：}Lasso；近端梯度法；ISTA；FISTA；稀疏回归；数值优化
+\par\noindent\textbf{代码与数据：}\url{https://github.com/10255102560/Lasson}
 
 \section{研究背景与研究问题}
 在传感器测量、信号重建或包含大量候选因素的回归建模中，常会遇到变量数多于观测数的情况。
@@ -421,7 +423,13 @@ FISTA 在前期迅速降低目标值，但后期仍需要消除动量振荡并�
 并根据实际任务分别设计预测评价与变量筛选评价。
 
 \appendix
-\section{文件组织与复现说明}
+\section{代码公开与复现说明}
+本文的算法实现、实验配置、原始结果、图表及报告源文件已公开于
+\url{https://github.com/10255102560/Lasson}，可供核验与复现。
+实验结果对应的初始公开版本为
+\href{https://github.com/10255102560/Lasson/commit/eeaed69b0accff24bd4aac847baed2e1798f91ef}{\texttt{eeaed69}}；
+运行环境与源文件校验信息见 \texttt{results/metadata.json}。
+
 \begin{table}[htbp]\centering\small
 \caption{主要配套文件}
 \begin{tabular}{p{5cm}p{7.9cm}}
@@ -439,8 +447,10 @@ FISTA 在前期迅速降低目标值，但后期仍需要消除动量振荡并�
 \texttt{report/lasso\_report.tex} & 本报告的 LaTeX 源文件。\\
 \bottomrule\end{tabular}\end{table}
 
-在安装好 Python 依赖后，于项目根目录运行：
+可使用以下命令获取仓库。在安装好 Python 依赖后，于项目根目录运行后续命令：
 \begin{verbatim}
+git clone https://github.com/10255102560/Lasson.git
+cd Lasson
 python -m unittest discover -s tests -v
 python run_experiments.py
 python verify_results.py
@@ -454,6 +464,7 @@ PDF 重新编译需要含 CTeX 的 XeLaTeX 环境；Word 导出需要配套的 P
 详细环境安装、Apple Silicon 后端说明和文件使用方式见根目录的 \texttt{README.txt}。
 
 \begin{thebibliography}{9}
+\small\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
 \bibitem{tibshirani} Tibshirani R. Regression Shrinkage and Selection via the Lasso.
 Journal of the Royal Statistical Society: Series B, 1996, 58(1): 267--288.
 \href{https://doi.org/10.1111/j.2517-6161.1996.tb02080.x}{doi:10.1111/j.2517-6161.1996.tb02080.x}.
